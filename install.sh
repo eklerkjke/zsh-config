@@ -6,7 +6,7 @@ echo "[1/5] Updating packages..."
 sudo apt update -y
 
 echo "[2/5] Installing Zsh, Git, Curl..."
-sudo apt install -y zsh git curl
+sudo apt install -y zsh git curl neofetch git curl wget bat ca-certificates apt-transport-https nload speedtest-cli
 
 echo "[3/5] Installing Oh My Zsh (unattended)..."
 export RUNZSH=no
